@@ -1,0 +1,5 @@
+mysql-connector-python
+pandas
+configparser
+flask_sqlalchemy
+pymysql
