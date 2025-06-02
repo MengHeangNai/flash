@@ -2,3 +2,4 @@ node_modules/
 env/
 sql/mydb.sqlite
 package-lock.json
+__pycache__

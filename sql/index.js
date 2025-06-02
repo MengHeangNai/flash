@@ -159,6 +159,5 @@ const queryParam = (params, query) => {
     query += ` OFFSET ${offset}`;
   }
 
-  console.log("query :>> ", query);
   return query;
 };
