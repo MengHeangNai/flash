@@ -12,6 +12,10 @@ dotenv.config();
 const PORT = process.env.PORT || 3000;
 const app = express();
 
+// Trust the first proxy in front of the app.
+// This is important for services like Render, Heroku, or other load balancers.
+app.set("trust proxy", 1);
+
 app.use(helmet());
 
 app.use(express.json());
